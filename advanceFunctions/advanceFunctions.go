@@ -68,12 +68,12 @@ func main() {
 	add := func(a, b int) int {
 		return a + b
 	}
-	anonymousResult := add(3, 4)
+	anonymousResult := add(3, 5)
 	fmt.Println("Anonymous Functions:")
 	fmt.Printf("Result of anonymous addition: %d\n", anonymousResult)
 	// Output:
 	// Anonymous Functions:
-	// Result of anonymous addition: 7
+	// Result of anonymous addition: 8
 }
 
 // Counter function closure
